@@ -1,0 +1,299 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 40,
+        "name": "Purchase all products",
+        "description": "",
+        "id": "add-products;purchase-all-products;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 88831917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUserSteps.tearDown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 30375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BotonSteps.tearDown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 85041,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddProductsSteps.tearDown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 35708,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SortProductSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6992422667,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the customer is on the main page",
+            "match": {
+              "location": "LoginUserSteps.elClienteSeEncuentraEnLaPaginaDeBusqueda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 573664584,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "enter user standard_user",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginUserSteps.enterUserUser(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336454959,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "enter password secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginUserSteps.enterPasswordPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1274968667,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the customer click the login button",
+            "match": {
+              "location": "LoginUserSteps.theCustomerClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25094630834,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the customer ADD TO CART of the product ALL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ALL",
+                  "offset": 40
+                }
+              ],
+              "location": "BotonSteps.theCustomerADDTOCARTOfTheProductProduct(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228911541,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the customer clicks the buttom cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cart",
+                  "offset": 31
+                }
+              ],
+              "location": "BotonSteps.theCustomerClicksTheButtomButtom(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101837916,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the customer clicks the buttom CheckOut",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CheckOut",
+                  "offset": 31
+                }
+              ],
+              "location": "BotonSteps.theCustomerClicksTheButtomButtom(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 692489209,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the customer fill form Christian, Mujica, 051",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Christian",
+                  "offset": 23
+                },
+                {
+                  "val": " Mujica",
+                  "offset": 33
+                },
+                {
+                  "val": " 051",
+                  "offset": 41
+                }
+              ],
+              "location": "PurchaseSteps.theCustomerFillFormFisrtNameLastNamePostalCode(String,String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7,
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2146291625,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the customer clicks the buttom Continue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue",
+                  "offset": 31
+                }
+              ],
+              "location": "BotonSteps.theCustomerClicksTheButtomButtom(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2163760084,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the customer clicks the buttom Finish",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Finish",
+                  "offset": 31
+                }
+              ],
+              "location": "BotonSteps.theCustomerClicksTheButtomButtom(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48707209,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "it is validated that the customer completed the purchase THANK YOU",
+            "match": {
+              "arguments": [
+                {
+                  "val": "THANK YOU",
+                  "offset": 57
+                }
+              ],
+              "location": "PurchaseSteps.itIsValidatedThatTheCustomerCompletedThePurchaseTitlePurchase(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@PurchaseMultiply"
+          },
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Add Products",
+    "description": "",
+    "id": "add-products",
+    "keyword": "Feature",
+    "uri": "Purchase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  }
+]
